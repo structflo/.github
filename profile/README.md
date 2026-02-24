@@ -33,7 +33,7 @@ results = extractor.extract(abstract_text, profile="CHEMISTRY")
 ---
 
 ### [structflo-cser](https://github.com/structflo/structflo-cser)
-**Chemical Structure Entity Recognition** — a Deep Learning detector for identifying compound panels and their matching labels/IDs in scientific documents.
+**Chemical Structure Entity Recognition**  A Deep Learning detector for identifying compound panels and their matching labels/IDs in scientific documents.
 
 Detects bounding boxes containing rendered chemical structures and their associated label IDs (e.g. `CHEMBL12345`) across PDFs and images and full-page documents.
 
@@ -48,4 +48,5 @@ results = pipeline.run("paper.pdf")
 
 ## License
 
-All structflo libraries are released under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
+Most structflo libraries are released under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
+Please review individual repos for any exceptions. 
