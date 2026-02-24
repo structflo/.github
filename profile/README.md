@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/logo.png" alt="StructFlo" width="220" />
+<img src="../images/logo.png" alt="StructFlo" width="220" />
 
 **Open-source tools for early drug discovery, chemistry, and the life sciences.**
 
