@@ -16,7 +16,7 @@
 ## Libraries
 
 ### [structflo-ner](https://github.com/structflo/structflo-ner)
-Zero-configuration Named Entity Recognition for drug discovery, chemistry, and biological sciences.
+**Zero-configuration Named Entity Recognition** for drug discovery, chemistry, and biological sciences.
 
 Extracts compounds, targets, genes, diseases, bioactivities, and assays from scientific text using two complementary engines:
 
@@ -33,9 +33,9 @@ results = extractor.extract(abstract_text, profile="CHEMISTRY")
 ---
 
 ### [structflo-cser](https://github.com/structflo/structflo-cser)
-Chemical Structure and Entity Recognition — a YOLO11l-based detector for identifying compound panels in scientific documents.
+**Chemical Structure Entity Recognition** — a Deep Learning detector for identifying compound panels and their matching labels/IDs in scientific documents.
 
-Detects bounding boxes containing rendered chemical structures and their associated label IDs (e.g. `CHEMBL12345`) across PDFs and images, using tiled inference for full-page document coverage.
+Detects bounding boxes containing rendered chemical structures and their associated label IDs (e.g. `CHEMBL12345`) across PDFs and images and full-page documents.
 
 ```python
 from structflo.cser.pipeline import ChemPipeline
